@@ -33,5 +33,5 @@ This project is a simple Flutter application built to meet the requirements of t
 - **Implementation**: The `ApiService` class handles API requests, and pagination is implemented using `page` and `limit` parameters to simulate "load more" functionality.
 
 ## Additional Notes
-- The project uses `UniqueKey` in `ListTile` to avoid key conflicts when rendering the product list.
+- The project uses `Key` in `ListTile` to avoid key conflicts when rendering the product list.
 - Code is formatted using `flutter format` to ensure consistency.
