@@ -110,7 +110,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                             // Log rendering details for debugging
                             print('Rendering product $index: ${product.title} with key: ${Key(product.title)}');
                             return ListTile(
-                              key: Key(product.title), // Unique key based on product title
+                              key: Key(product.title), // Key based on product title
                               leading: SizedBox(
                                 width: 50,
                                 height: 50,
